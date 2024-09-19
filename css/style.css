@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.679);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    color: #003366;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    flex: 1;
+    min-width: 250px;
+    margin-right: 40px;
+}
+
+.image-container img {
+    width: 700px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+/* Button Container */
+.form-buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    gap: 15px; /* Space between buttons */
+    padding-top: 20px; /* Add padding at the top */
+}
+
+/* Button Styling */
+.btn {
+    background: linear-gradient(135deg, #00c6ff, #0072ff); /* Gradient background from light blue to darker blue */
+    color: white;
+    padding: 15px 40px; /* Padding to make the button larger */
+    font-size: 18px;
+    font-weight: 600;
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    width: 300px; /* Set fixed width */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover and Active Effects */
+.btn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.btn:active {
+    transform: translateY(2px); /* Press effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow reduction on press */
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .image-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#clear-btn {
+    background-color: #ffc107;
+    border: none;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+

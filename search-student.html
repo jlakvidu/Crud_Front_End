@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Student</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <input type="text" id="txtId" placeholder="Student ID">
+            <input type="button" onclick="searchStudent()" value="Search">
+        </div>
+            
+        <div class="row">
+            <input type="text" id="txtStdName" placeholder="Student Name">
+            <input type="text" id="txtStdAge" placeholder="Student Age">
+            <input type="text" id="txtStdContact" placeholder="Student Contact">
+            <input type="text" id="txtGuardianName" placeholder="Guardian Name">
+            <input type="text" id="txtGuardianAddress" placeholder="Guardian Address">
+            <input type="text" id="txtGuardianContact" placeholder="Guardian Contact">
+        </div>
+
+        <!-- Image section -->
+        <div class="row">
+            <h3>Student Image</h3>
+            <img id="studentImage" alt="Student Image" style="max-width: 500px; display: none;" />
+        </div>
+    </div>
+    
+    <script src="js/search-student.js"></script>
+</body>
+</html>

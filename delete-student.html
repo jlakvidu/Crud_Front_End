@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <input type="text" name="" id="txtId">
+            <input type="button" onclick="searchStudent()" value="Search">
+        </div>
+            
+        <div class="row">
+            <input type="text" name="" id="txtStdName" placeholder="student name">
+            <input type="text" name="" id="txtStdAge" placeholder="student age">
+            <input type="text" name="" id="txtStdContact" placeholder="student contact">
+            <input type="text" name="" id="txtGuardianName" placeholder="guaridan name">
+            <input type="text" name="" id="txtGuardianAddress" placeholder="guardian address">
+            <input type="text" name="" id="txtGuardianContact" placeholder="guardian contact">
+        </div>
+    </div>
+
+    <div class="row">
+        <h3>Student Image</h3>
+        <img id="studentImage" alt="Student Image" style="max-width: 500px; display: none;" />
+    </div>
+
+    <input type="button" onclick="deleteStudent()" value="Delete" id="deleteButton">
+
+    <script src="js/delete-student.js"></script>
+</body>
+</html>

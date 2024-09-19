@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Student Upload</title>
+</head>
+<body>
+    <h1>Add Student with Image</h1>
+    <input type="file" id="fileInput" />
+    <input type="text" id="txtStdName" placeholder="Student Name" />
+    <input type="text" id="txtStdAge" placeholder="Student Age" />
+    <input type="text" id="txtStdContact" placeholder="Student Contact" />
+    <input type="text" id="txtGuardianName" placeholder="Guardian Name" />
+    <input type="text" id="txtGuardianAddress" placeholder="Guardian Address" />
+    <input type="text" id="txtGuardianContact" placeholder="Guardian Contact" />
+    <button onclick="addStudentWithImage()">Add Student</button>
+
+    <h1>Display Image</h1>
+    <img id="imagePreview" alt="Image will be displayed here" style="max-width: 500px;" />
+
+    <script src="js/add-student.js"></script>
+</body>
+</html>
